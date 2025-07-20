@@ -1,0 +1,26 @@
+font = /usr/share/fonts/ttf-maple-beta/MapleMono-NF-Light.ttf
+
+prompt-text = " "
+text-cursor-style = underscore
+hide-cursor = false
+text-cursor = true
+require-match = false
+
+width = 100%
+padding-left = 35%
+padding-top = 30%
+height = 100%
+border-width = 0
+outline-width = 0
+result-spacing = 14
+num-results = 8
+
+module-math = true
+module-search = true
+module-search-engine = duckduckgo.com/
+module-search-browser = librewolf
+
+text-color = #c2c7cf
+prompt-color = #e0e2e8
+selection-color = #9ccbfb
+background-color = #10141899
