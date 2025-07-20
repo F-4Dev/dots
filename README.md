@@ -6,4 +6,5 @@ If someone says that I have to many keybinds... they're wrong!
 ## Features
 - minimal setup, no clutter
 - Using [Matugen](https://github.com/InioX/matugen) for dynamic color setting based on the current wallpaper
+- cool [wallpaper](https://github.com/F-4Dev/dots/tree/master/wallpaper)
 - and more 
