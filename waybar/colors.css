@@ -1,0 +1,11 @@
+/*
+* Css Colors
+* Generated with Matugen
+*/
+
+    @define-color background rgba(16, 20, 24, 0.6);
+    @define-color primary #9fcafc;
+    @define-color secondary #bac8db;
+    @define-color error #ffb4ab;
+    @define-color text #e1e2e8;
+

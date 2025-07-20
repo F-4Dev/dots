@@ -30,10 +30,13 @@
 !/hypr/scripts/**
 
 !/waybar
+!/waybar/**
 
 !/vesktop
+!/vesktop/settings/**
 
 !/kitty
+!/kitty/**
 
 !/VSCodium/
 !/VSCodium/User

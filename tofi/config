@@ -21,6 +21,6 @@ module-search-engine = duckduckgo.com/
 module-search-browser = librewolf
 
 text-color = #c2c7cf
-prompt-color = #e0e2e8
-selection-color = #9ccbfb
+prompt-color = #e1e2e8
+selection-color = #9fcafc
 background-color = #10141899

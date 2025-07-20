@@ -1,0 +1,1 @@
+echo '{"text": "", "alt": "default", "tooltip": "", "class": "", "percentage": 0 }'
