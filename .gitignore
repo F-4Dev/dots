@@ -2,34 +2,35 @@
 
 !/.gitignore
 
-!/matugen/**
+!/matugen
 
-!/gtk-3.0/
+!/gtk-3.0
 !/gtk-3.0/colors.css
 !/gtk-3.0/gtk.css
 !gtk-3.0/settings.ini
 
-!/gtk-4.0/
+!/gtk-4.0
 !/gtk-4.0/colors.css
 !/gtk-4.0/gtk.css
 !gtk-4.0/settings.ini
 
-!/qt5ct/**
+!/qt5ct
 
-!/qt6ct/**
+!/qt6ct
 
+!/wal
 !/wal/**
 !/wallust/**
 
+!/hypr
 !/hypr/*
 !/hypr/scripts/**
 
-!/waybar/*
+!/waybar
 
-!/vesktop/*
+!/vesktop
 
-!/kitty/
-!/kitty/kitty.toml
+!/kitty
 
 !/VSCodium/
 !/VSCodium/User
