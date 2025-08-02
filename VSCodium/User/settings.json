@@ -68,5 +68,9 @@
     },
     "[javascript]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
+    },
+    "fiveServer.php.executable": "/usr/bin/php",
+    "[yaml]": {
+        "editor.defaultFormatter": "denoland.vscode-deno"
     }
 }

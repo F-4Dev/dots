@@ -1,0 +1,4 @@
+theme:
+  background-color: {{colors.surface887320.default.hue}} {{colors.surface887320.default.lightness}} {{colors.surface887320.default.saturation}}
+  primary-color: {{colors.primary.default.hue}} {{colors.primary.default.lightness}} {{colors.primary.default.saturation}}
+  contrast-multiplier: 1.10

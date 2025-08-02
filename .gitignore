@@ -23,6 +23,8 @@
 
 !/wal
 !/wal/**
+
+!/wallust
 !/wallust/**
 
 !/hypr
