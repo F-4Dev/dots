@@ -1,7 +1,7 @@
 {
     "layer": "bottom",
     "height": 35,
-    "spacing": 15,    
+    "spacing": 15,
     "reload_style_on_change": true,
     "modules-left": [
         "hyprland/workspaces"
@@ -13,6 +13,8 @@
         "tray",
         "backlight/slider",
         "custom/hypridle",
+        "network",
+        "privacy",
         "pulseaudio",
         "clock"
     ],
@@ -24,34 +26,46 @@
     "tray": {
         "spacing": 10,
         "icons": {
-            "vesktop": "/home/f4/.config/waybar/icons/discord.svg"
+            "vesktop": "/home/f4/.config/waybar/icons/discord.svg",
+            "kdeconnect": "/home/f4/.config/waybar/icons/kde-connect.svg"
         }
     },
     "hyprland/window": {
         "max-length": 60
     },
     "clock": {
-        "tooltip-format": "{:%A, %B %d, %Y}",
-        "format": "{:%H:%M}"
+        "tooltip": false,
+        "format": "[ {:%a. %d. %b %H:%M} ]"
     },
     "pulseaudio": {
-        "format": "{icon}",
-        "format-muted": "<span size='x-large'> 󰖁 </span",
+        "format": "{icon} {volume}% ]",
+        "format-muted": "<span size='x-large'>  </span",
         "format-icons": {
             "default": [
-                "  ",
-                "  ",
-                " 󰕾 "
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " ",
+                " "
             ]
         },
-        "tooltip-format": "{volume}% volume",
-        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle"
+        "tooltip-format": "{volume}% Volume",
+        "on-click": "wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle",
+        "on-scroll-up": "wpctl set-volume -l 1.50 @DEFAULT_SINK@ 10%+",
+        "on-scroll-down": "wpctl set-volume -l 0.0 @DEFAULT_SINK@ 10%-",
+        "on-click-forward": "wpctl set-volume -l 0.0 @DEFAULT_SINK@ 1%+",
+        "on-click-backward": "wpctl set-volume -l 0.0 @DEFAULT_SINK@ 1%-"
     },
     "custom/hypridle": {
         "format": "{icon}",
         "format-icons": {
-            "default": "<span size='large'>󰒲 </span>",
-            "disabled": "<span size='large'>󰒳 </span>"
+            "default": "[<span size='medium'> 󰛊 </span>",
+            "disabled": "[<span size='medium'> 󰅶 </span>"
         },
         "tooltip": false,
         "on-click": "sh ~/.config/waybar/custom-hypridle/on-click.sh",
@@ -59,11 +73,36 @@
         "return-type": "json",
         "exec": "sh ~/.config/waybar/custom-hypridle/icon-change.sh | jq --unbuffered --compact-output"
     },
-    "custom/hyprsunset": {
-        "format": "{icon}",
-        "format-icons": {
-            "default": "<span size='large'> </span>",
-            "disabled": "<span size='large'> </span>"
-        }
+    "network": {
+        "tooltip": false,
+        "interface": "enp5s0",
+        "format": "{ifname}",
+        "format-ethernet": "󰛳 ",
+        "format-disconnected": "󰲜 ",
+        "max-length": 50
+    },
+    "privacy": {
+        "icon-spacing": 8,
+        "icon-size": 14,
+        "transition-duration": 250,
+        "modules": [
+            {
+                "type": "screenshare",
+                "tooltip": true,
+                "tooltip-icon-size": 1
+            },
+            {
+                "type": "audio-out",
+                "tooltip": true,
+                "tooltip-icon-size": 18,
+                "on-click": "playerctl play-pause"
+            },
+            {
+                "type": "audio-in",
+                "tooltip": true,
+                "tooltip-icon-size": 1
+            }
+        ],
+        "ignore-monitor": true
     }
 }

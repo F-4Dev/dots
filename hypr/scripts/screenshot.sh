@@ -1,8 +1,7 @@
-cursorPos=$(hyprctl cursorpos | tr -d ',')
-hyprctl dispatch movecursor 10000 10000
-wayfreeze --hide-cursor & PID=$!
-sleep .01
-hyprctl dispatch movecursor $cursorPos
+hyprctl keyword cursor:invisible true
+sleep 0.1
+wayfreeze & PID=$!
+hyprctl keyword cursor:invisible false
 IMG="$HOME/Pictures/Screenshots/$(date +"%Y-%m-%d-%H:%M:%S").png"
 hyprctl keyword layerrule "noanim,selection" >/dev/null
 wayshot -f $IMG -s "$(slurp)"

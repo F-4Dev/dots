@@ -54,9 +54,4 @@ output_path = '~/.config/qt6ct/colors/matugen.conf'
 
 [templates.swaync]
 input_path = '~/.config/matugen/templates/sway-colors.css'
-output_path = '~/.config/swaync/colors.conf'
-
-[templates.glance]
-input_path = '~/.config/matugen/templates/glance.yml'
-output_path = '~/.config/matugen/glance/colors.yml'
-post_hook = 'sh ~/.config/matugen/scripts/colorsToServer.sh'
+output_path = '~/.config/swaync/style/colors.css'

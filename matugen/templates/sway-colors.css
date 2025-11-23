@@ -1,7 +1,7 @@
-#
-# Css Colors
-# Generated with Matugen
-#
+/*
+ * Css Colors
+ * Generated with Matugen
+ */
 <* for name, value in colors *>
-${{name}} = rgba({{value.default.hex_stripped}}66)
+@define-color {{name}} {{value.default.hex}};
 <* endfor *>

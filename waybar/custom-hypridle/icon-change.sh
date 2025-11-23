@@ -1,1 +1,1 @@
-echo '{"text": "", "alt": "default", "tooltip": "", "class": "", "percentage": 0 }'
+echo '{"text": "", "alt": "disabled", "tooltip": "", "class": "", "percentage": 0 }'

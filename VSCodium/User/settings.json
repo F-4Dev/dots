@@ -3,12 +3,9 @@
     "editor.smoothScrolling": true,
     "terminal.integrated.smoothScrolling": true,
     "workbench.iconTheme": "catppuccin-mocha",
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.autohide": true,
+    "editor.minimap.autohide": "mouseover",
     "editor.scrollPredominantAxis": false,
-    "apc.buttons": [
-
-    ],
+    "apc.buttons": [],
     "apc.sidebar.titlebar": {},
     "workbench.editor.wrapTabs": true,
     "svelte.enable-ts-plugin": true,
@@ -21,27 +18,22 @@
     "zenMode.fullScreen": false,
     "zenMode.silentNotifications": false,
     "[jsonc]": {
-        "editor.defaultFormatter": "esbenp.prettier-vscode"
+        "editor.defaultFormatter": "denoland.vscode-deno"
     },
     "[json]": {
         "editor.defaultFormatter": "vscode.json-language-features"
     },
-    "editor.fontFamily": "JetBrainsMonoNL NFM Thin",
+    "editor.fontFamily": "'JetBrainsMono NFM'",
     "database-client.autoSync": true,
-    "editor.minimap.enabled": false,
     "dineug.erd-editor.theme.appearance": "dark",
     "dineug.erd-editor.theme.grayColor": "mauve",
     "dineug.erd-editor.theme.accentColor": "violet",
     "terminal.integrated.enableMultiLinePasteWarning": false,
-    "workbench.settings.applyToAllProfiles": [
-
-    ],
+    "workbench.settings.applyToAllProfiles": [],
     "workbench.editor.enablePreview": false,
     "python.defaultInterpreterPath": "/bin/python",
     "workbench.activityBar.location": "top",
-    "window.customTitleBarVisibility": "never",
     "zenMode.showTabs": "none",
-    "zenMode.centerLayout": false,
     "chat.commandCenter.enabled": false,
     "editor.unicodeHighlight.ambiguousCharacters": false,
     "php.problems.exclude": {
@@ -49,7 +41,6 @@
             "php_to_string_interpolation"
         ]
     },
-    "files.autoSave": "onWindowChange",
     "explorer.confirmDelete": false,
     "[svelte]": {
         "editor.defaultFormatter": "svelte.svelte-vscode"
@@ -61,7 +52,7 @@
     "editor.inlayHints.fontFamily": "JetBrainsMonoNerdFont-Light",
     "workbench.colorTheme": "Wal",
     "[shellscript]": {
-        "editor.defaultFormatter": "foxundermoon.shell-format"
+        "editor.defaultFormatter": "mkhl.shfmt"
     },
     "[html]": {
         "editor.defaultFormatter": "vscode.html-language-features"
@@ -72,5 +63,18 @@
     "fiveServer.php.executable": "/usr/bin/php",
     "[yaml]": {
         "editor.defaultFormatter": "denoland.vscode-deno"
-    }
+    },
+    "shfmt.executablePath": "/usr/bin/shfmt",
+    "editor.fontLigatures": true,
+    "terminal.integrated.fontLigatures.enabled": true,
+    "editor.formatOnPaste": true,
+    "editor.renderWhitespace": "all",
+    "editor.minimap.renderCharacters": false,
+    "editor.minimap.side": "left",
+    "workbench.layoutControl.enabled": false,
+    "window.commandCenter": false,
+    "window.menuBarVisibility": "toggle",
+    "editor.minimap.enabled": false,
+    "window.customTitleBarVisibility": "never",
+    "zenMode.centerLayout": false
 }
