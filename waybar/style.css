@@ -50,7 +50,7 @@ button {
 
 #clock {
     color: @primary;
-    padding-right: 15px;
+    padding-right: 2px;
 }
 
 #workspaces {

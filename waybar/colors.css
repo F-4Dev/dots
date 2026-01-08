@@ -3,9 +3,9 @@
 * Generated with Matugen
 */
 
-    @define-color background rgba(25, 18, 13, 0.6);
-    @define-color primary #ffb781;
-    @define-color secondary #e4bfa7;
+    @define-color background rgba(20, 19, 24, 0.6);
+    @define-color primary #cdbdff;
+    @define-color secondary #cbc3dc;
     @define-color error #ffb4ab;
-    @define-color text #f0dfd6;
+    @define-color text #e6e1e9;
 

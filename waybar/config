@@ -16,7 +16,8 @@
         "network",
         "privacy",
         "pulseaudio",
-        "clock"
+        "clock",
+        "custom/notifications"
     ],
     "hyprland/workspaces": {
         "disable-scroll": true,
@@ -72,6 +73,16 @@
         "signal": 1,
         "return-type": "json",
         "exec": "sh ~/.config/waybar/custom-hypridle/icon-change.sh | jq --unbuffered --compact-output"
+    },
+    "custom/notifications": {
+        "format": "{icon}",
+        "format-icons": {
+            "default": "󰂚   ",
+            "disabled": "󰂛   "
+        },
+        "tooltip": false,
+        "on-click": "swaync-client -t -sw",
+        "signal": 1
     },
     "network": {
         "tooltip": false,

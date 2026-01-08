@@ -55,3 +55,7 @@ output_path = '~/.config/qt6ct/colors/matugen.conf'
 [templates.swaync]
 input_path = '~/.config/matugen/templates/sway-colors.css'
 output_path = '~/.config/swaync/style/colors.css'
+
+[templates.vscode]
+input_path = '~/.config/matugen/templates/vscode.json'
+output_path = '~/.config/VSCodium/User/settings.json'
