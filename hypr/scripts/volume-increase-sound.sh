@@ -4,7 +4,7 @@ echo "changing directory"
 cd ~/.config/hypr/sounds/volumes
 
 if ! [ -e $volumefile ]; then
-    echo 1 > $volumefile
+  echo 1 > $volumefile
 fi
 
 volume=$(qalc -t $(cat $volumefile) + 0.1)

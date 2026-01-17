@@ -5,28 +5,28 @@ action=$(printf "Suspend\nReboot\nShutdown" | tofi --require-match=false --promp
 case $action in
   
   "Suspend")
-    systemctl suspend
-    ;;
+  systemctl suspend
+  ;;
 
   "Reboot")
-    systemctl reboot
-    ;;
+  systemctl reboot
+  ;;
 
   "Shutdown")
-    systemctl poweroff   
-    ;;
+  systemctl poweroff   
+  ;;
 
   "kys")
-    systemctl poweroff   
-    ;;
+  systemctl poweroff   
+  ;;
 
   "kill yourself")
-    systemctl poweroff   
-    ;;
+  systemctl poweroff   
+  ;;
 
   *)
-    exit
-    ;;
+  exit
+  ;;
 
 esac
 

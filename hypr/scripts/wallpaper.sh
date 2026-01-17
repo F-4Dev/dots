@@ -20,11 +20,11 @@ pkill swaync ; swaync
 
 # finamp colors ✨️
 gdbus call \
-    --session \
-    --dest 'com.unicornsonlsd.FinampSettings' \
-    --object-path '/com/unicornsonlsd/Finamp' \
-    --method 'com.unicornsonlsd.Finamp.setAccentColor' \
-    $(cat .config/gtk-4.0/colors.css | grep accent_color | awk '{print $3}' | sed 's/;//')
+  --session \
+  --dest 'com.unicornsonlsd.FinampSettings' \
+  --object-path '/com/unicornsonlsd/Finamp' \
+  --method 'com.unicornsonlsd.Finamp.setAccentColor' \
+  $(cat .config/gtk-4.0/colors.css | grep accent_color | awk '{print $3}' | sed 's/;//')
 
 # fix gtk 3.0 apps
 gsettings set org.gnome.desktop.interface gtk-theme 'adw-gtk3-dark' && gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
