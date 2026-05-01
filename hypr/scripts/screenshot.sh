@@ -1,7 +1,7 @@
 hyprctl keyword cursor:invisible true
 sleep 0.1
 wayfreeze & PID=$!
-sleep 0.01
+sleep 0.1
 hyprctl keyword cursor:invisible false
 IMG="$HOME/Pictures/Screenshots/$(date +"%Y-%m-%d-%H:%M:%S").png"
 hyprctl keyword layerrule "noanim,selection" >/dev/null

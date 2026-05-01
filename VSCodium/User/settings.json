@@ -1,95 +1,127 @@
 {
-    "workbench.list.smoothScrolling": true,
-    "editor.smoothScrolling": true,
-    "terminal.integrated.smoothScrolling": true,
-    "workbench.iconTheme": "catppuccin-mocha",
-    "editor.minimap.autohide": "mouseover",
-    "editor.scrollPredominantAxis": false,
-    "apc.buttons": [],
-    "apc.sidebar.titlebar": {},
-    "workbench.editor.wrapTabs": true,
-    "svelte.enable-ts-plugin": true,
-    "[css]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "explorer.confirmDragAndDrop": false,
-    "redhat.telemetry.enabled": false,
-    "security.workspace.trust.enabled": false,
-    "zenMode.fullScreen": false,
-    "zenMode.silentNotifications": false,
-    "[jsonc]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "[json]": {
-        "editor.defaultFormatter": "vscode.json-language-features"
-    },
-    "editor.fontFamily": "'JetBrainsMono NFM'",
-    "database-client.autoSync": true,
-    "dineug.erd-editor.theme.appearance": "dark",
-    "dineug.erd-editor.theme.grayColor": "mauve",
-    "dineug.erd-editor.theme.accentColor": "violet",
-    "terminal.integrated.enableMultiLinePasteWarning": false,
-    "workbench.settings.applyToAllProfiles": [],
-    "workbench.editor.enablePreview": false,
-    "python.defaultInterpreterPath": "/bin/python",
-    "workbench.activityBar.location": "top",
-    "zenMode.showTabs": "none",
-    "chat.commandCenter.enabled": false,
-    "editor.unicodeHighlight.ambiguousCharacters": false,
-    "php.problems.exclude": {
-        "/": [
-            "php_to_string_interpolation"
-        ]
-    },
-    "explorer.confirmDelete": false,
-    "[svelte]": {
-        "editor.defaultFormatter": "svelte.svelte-vscode"
-    },
-    "[scss]": {
-        "editor.defaultFormatter": "vscode.css-language-features"
-    },
-    "glassit.alpha": 1,
-    "editor.inlayHints.fontFamily": "JetBrainsMonoNerdFont-Light",
-    "workbench.colorTheme": "Material Code",
-    "[shellscript]": {
-        "editor.defaultFormatter": "mkhl.shfmt"
-    },
-    "[html]": {
-        "editor.defaultFormatter": "vscode.html-language-features"
-    },
-    "[javascript]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "fiveServer.php.executable": "/usr/bin/php",
-    "[yaml]": {
-        "editor.defaultFormatter": "denoland.vscode-deno"
-    },
-    "shfmt.executablePath": "/usr/bin/shfmt",
-    "editor.fontLigatures": true,
-    "terminal.integrated.fontLigatures.enabled": true,
-    "editor.formatOnPaste": true,
-    "editor.renderWhitespace": "selection",
-    "editor.minimap.renderCharacters": false,
-    "editor.minimap.side": "left",
-    "workbench.layoutControl.enabled": false,
-    "window.commandCenter": false,
-    "window.menuBarVisibility": "toggle",
-    "editor.minimap.enabled": false,
-    "zenMode.centerLayout": false,
-    "debug.disassemblyView.showSourceCode": false,
-    "editor.semanticHighlighting.enabled": true,
-    "window.dialogStyle": "custom",
-    "material-code.colors": {
-        "primary": "#cdbdff",
-        "foreground": "#e6e1e9",
-        "mutedForeground": "#cac4cf",
-        "background": "#141318",
-        "card": "#201f24",
-        "popover": "#2b292f",
-        "hover": "#36343a",
-        "border": "#48454e",
-        "primaryForeground": "#34275e",
-        "secondary": "#494458",
-        "secondaryForeground": "#e7def8"
-    }
+  "workbench.list.smoothScrolling": true,
+  "editor.smoothScrolling": true,
+  "terminal.integrated.smoothScrolling": true,
+  "workbench.iconTheme": "catppuccin-mocha",
+  "editor.minimap.autohide": "mouseover",
+  "editor.scrollPredominantAxis": false,
+  "apc.buttons": [],
+  "apc.sidebar.titlebar": {},
+  "workbench.editor.wrapTabs": true,
+  "svelte.enable-ts-plugin": true,
+  "[css]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "explorer.confirmDragAndDrop": false,
+  "redhat.telemetry.enabled": false,
+  "security.workspace.trust.enabled": false,
+  "zenMode.fullScreen": false,
+  "zenMode.silentNotifications": false,
+  "[jsonc]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "vscode.json-language-features"
+  },
+  "editor.fontFamily": "'JetBrainsMono NFM'",
+  "database-client.autoSync": true,
+  "dineug.erd-editor.theme.appearance": "dark",
+  "dineug.erd-editor.theme.grayColor": "mauve",
+  "dineug.erd-editor.theme.accentColor": "violet",
+  "terminal.integrated.enableMultiLinePasteWarning": false,
+  "workbench.settings.applyToAllProfiles": [],
+  "workbench.editor.enablePreview": false,
+  "python.defaultInterpreterPath": "/bin/python",
+  "workbench.activityBar.location": "top",
+  "zenMode.showTabs": "none",
+  "chat.commandCenter.enabled": false,
+  "editor.unicodeHighlight.ambiguousCharacters": false,
+  "php.problems.exclude": {
+    "/": [
+      "php_to_string_interpolation"
+    ]
+  },
+  "explorer.confirmDelete": false,
+  "[svelte]": {
+    "editor.defaultFormatter": "svelte.svelte-vscode"
+  },
+  "[scss]": {
+    "editor.defaultFormatter": "vscode.css-language-features"
+  },
+  "glassit.alpha": 1,
+  "editor.inlayHints.fontFamily": "JetBrainsMonoNerdFont-Light",
+  "workbench.colorTheme": "Material Code",
+  "[shellscript]": {
+    "editor.defaultFormatter": "mkhl.shfmt"
+  },
+  "[html]": {
+    "editor.defaultFormatter": "vscode.html-language-features"
+  },
+  "[javascript]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "fiveServer.php.executable": "/usr/bin/php",
+  "[yaml]": {
+    "editor.defaultFormatter": "denoland.vscode-deno"
+  },
+  "shfmt.executablePath": "/usr/bin/shfmt",
+  "editor.fontLigatures": true,
+  "terminal.integrated.fontLigatures.enabled": true,
+  "editor.formatOnPaste": true,
+  "editor.renderWhitespace": "selection",
+  "editor.minimap.renderCharacters": false,
+  "editor.minimap.side": "left",
+  "workbench.layoutControl.enabled": false,
+  "window.commandCenter": false,
+  "window.menuBarVisibility": "toggle",
+  "editor.minimap.enabled": false,
+  "zenMode.centerLayout": false,
+  "debug.disassemblyView.showSourceCode": false,
+  "editor.semanticHighlighting.enabled": true,
+  "window.dialogStyle": "custom",
+  // color theme
+  "material-code.colors": {
+    // All fields are optional. Unset colors are derived from primary
+    "primary": "#e3c46d",
+    "foreground": "#eae1d4",
+    "mutedForeground": "#cfc6b4",
+    "background": "#16130b",
+    // Elevated panel
+    "card": "#231f17",
+    // Dialog, dropdown
+    "popover": "#2d2a21",
+    // Hover, selected
+    "hover": "#38342b",
+    // Input border, divider
+    "border": "#4c4639",
+    "primaryForeground": "#3d2f00",
+    // Tonal button, tooltip
+    "secondary": "#50462a",
+    "secondaryForeground": "#f2e1bb",
+    "error": "#c6000d",
+    "errorForeground": "#690005",
+    // Success indicators, green terminal colors
+    "success": "#83e36d",
+    // Warning indicators, yellow terminal colors
+    "warning": "#d9e014AA",
+    "syntax.comment": "#9b9182",
+    "syntax.string": "#a4dba5",
+    // Keywords, operators, control flow
+    "syntax.keyword": "#dec378",
+    // Variables, tags, HTML elements
+    "syntax.variable": "#fdfbf6",
+    // HTML attributes, CSS selectors
+    "syntax.attribute": "#f6fdf8",
+    // Object properties, CSS properties
+    "syntax.property": "#fdf7e8",
+    // Functions, methods, CSS values
+    "syntax.function": "#62bc65",
+    // Numbers, constants, types
+    "syntax.constant": "#decca1",
+    // Bracket pair colors
+    "syntax.bracket1": "#f3f3f2",
+    "syntax.bracket2": "#f3f3f2",
+    "syntax.bracket3": "#f3f3f2",
+    "syntax.bracket4": "#f3f3f2"
+  }
 }

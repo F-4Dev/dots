@@ -4,16 +4,16 @@ sleep 3
 hyprctl reload
 
 # get current path to image
-imagePath="$(swww query | grep -o '/.*' | uniq)"
+imagePath="$(awww query | grep -o '/.*' | uniq)"
 
 # generate matugen colors
-matugen image "$imagePath"
-
-# update pywal colors (firefox/vscode)
-wal -n -i "$imagePath" && pywalfox update
+matugen image "$imagePath" --source-color-index 0
 
 # set tofi colors
 sh ~/.config/tofi/config.sh
+
+# update pywal colors (firefox/vscode)
+wal -n -i "$imagePath" && pywalfox update
 
 # restart swaync to update colors
 pkill swaync ; swaync

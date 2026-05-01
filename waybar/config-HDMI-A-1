@@ -3,6 +3,9 @@
     "height": 35,
     "spacing": 15,
     "reload_style_on_change": true,
+    "output": [
+        "HDMI-A-1"
+    ],
     "modules-left": [
         "hyprland/workspaces"
     ],
@@ -39,7 +42,7 @@
         "format": "[ {:%a. %d. %b %H:%M} ]"
     },
     "pulseaudio": {
-        "format": "{icon} {volume}% ]",
+        "format": "[ {icon} {volume}% ]",
         "format-muted": "<span size='x-large'>  </span",
         "format-icons": {
             "default": [
@@ -62,18 +65,6 @@
         "on-click-forward": "wpctl set-volume -l 0.0 @DEFAULT_SINK@ 1%+",
         "on-click-backward": "wpctl set-volume -l 0.0 @DEFAULT_SINK@ 1%-"
     },
-    "custom/hypridle": {
-        "format": "{icon}",
-        "format-icons": {
-            "default": "[<span size='medium'> 󰛊 </span>",
-            "disabled": "[<span size='medium'> 󰅶 </span>"
-        },
-        "tooltip": false,
-        "on-click": "sh ~/.config/waybar/custom-hypridle/on-click.sh",
-        "signal": 1,
-        "return-type": "json",
-        "exec": "sh ~/.config/waybar/custom-hypridle/icon-change.sh | jq --unbuffered --compact-output"
-    },
     "custom/notifications": {
         "format": "{icon}",
         "format-icons": {
@@ -91,29 +82,5 @@
         "format-ethernet": "󰛳 ",
         "format-disconnected": "󰲜 ",
         "max-length": 50
-    },
-    "privacy": {
-        "icon-spacing": 8,
-        "icon-size": 14,
-        "transition-duration": 250,
-        "modules": [
-            {
-                "type": "screenshare",
-                "tooltip": true,
-                "tooltip-icon-size": 1
-            },
-            {
-                "type": "audio-out",
-                "tooltip": true,
-                "tooltip-icon-size": 18,
-                "on-click": "playerctl play-pause"
-            },
-            {
-                "type": "audio-in",
-                "tooltip": true,
-                "tooltip-icon-size": 1
-            }
-        ],
-        "ignore-monitor": true
     }
 }
